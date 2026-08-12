@@ -1,0 +1,32 @@
+{
+  "name": "resume",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.3.2",
+    "@react-pdf/renderer": "^4.5.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "antd": "^6.5.3",
+    "docx": "^9.7.1",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "mammoth": "^1.12.0",
+    "pdfjs-dist": "^6.2.108",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.2",
+    "zustand": "^5.0.14"
+  }
+}
